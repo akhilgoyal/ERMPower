@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERMPower", "ERMPower\ERMPower.csproj", "{C5150574-B278-4C74-BE86-B2876D32CE04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERMPower.Domain", "ERMPower.Domain\ERMPower.Domain.csproj", "{545326A4-64E6-48E3-9F96-BA83BD4021C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERMPower.Tests", "ERMPower.Tests\ERMPower.Tests.csproj", "{20CCCA64-0DA2-4988-941A-EC52B5561C44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERMPower.Services", "ERMPower.Services\ERMPower.Services.csproj", "{C726EF41-C379-4008-969C-9E04C18C5F7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERMPower.ConsoleApplication", "ERMPower.ConsoleApplication\ERMPower.ConsoleApplication.csproj", "{546A93B2-C66C-4C2A-A609-0B6A034B41B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERMPower.Services.Tests", "ERMPower.Services.Tests\ERMPower.Services.Tests.csproj", "{DD8C7544-A6EF-4D63-A032-B1F4DA49044A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C5150574-B278-4C74-BE86-B2876D32CE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C5150574-B278-4C74-BE86-B2876D32CE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C5150574-B278-4C74-BE86-B2876D32CE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C5150574-B278-4C74-BE86-B2876D32CE04}.Release|Any CPU.Build.0 = Release|Any CPU
-		{20CCCA64-0DA2-4988-941A-EC52B5561C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{20CCCA64-0DA2-4988-941A-EC52B5561C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{20CCCA64-0DA2-4988-941A-EC52B5561C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{20CCCA64-0DA2-4988-941A-EC52B5561C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{545326A4-64E6-48E3-9F96-BA83BD4021C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{545326A4-64E6-48E3-9F96-BA83BD4021C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{545326A4-64E6-48E3-9F96-BA83BD4021C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{545326A4-64E6-48E3-9F96-BA83BD4021C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C726EF41-C379-4008-969C-9E04C18C5F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C726EF41-C379-4008-969C-9E04C18C5F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C726EF41-C379-4008-969C-9E04C18C5F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C726EF41-C379-4008-969C-9E04C18C5F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{546A93B2-C66C-4C2A-A609-0B6A034B41B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{546A93B2-C66C-4C2A-A609-0B6A034B41B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{546A93B2-C66C-4C2A-A609-0B6A034B41B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{546A93B2-C66C-4C2A-A609-0B6A034B41B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD8C7544-A6EF-4D63-A032-B1F4DA49044A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD8C7544-A6EF-4D63-A032-B1F4DA49044A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD8C7544-A6EF-4D63-A032-B1F4DA49044A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD8C7544-A6EF-4D63-A032-B1F4DA49044A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
